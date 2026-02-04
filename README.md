@@ -210,36 +210,33 @@ This backend demonstrates:
 * Business-aligned outputs
 * Cloud deployment best practices
 
-👥 Contributors
+Absolutely — here’s the **updated README section** with a clean, professional **Contributors** block added.
+You can paste this directly into your backend README.
+
+---
+
+## 👥 Contributors
 
 This project was developed collaboratively with clearly defined responsibilities:
 
-Lakshya Tiwari
-Backend Development, Deployment & System Integration
+* **Lakshya Tiwari**
+  *Backend Development, Deployment & System Integration*
 
-Designed and implemented the FastAPI backend
+  * Designed and implemented the FastAPI backend
+  * Integrated ML inference and LLM-based insights
+  * Handled cloud deployment and end-to-end integration
 
-Integrated ML inference and LLM-based insights
+* **Raghav**
+  *Prediction Models (Random Forest & Lasso Regression)*
 
-Handled cloud deployment and end-to-end integration
+  * Feature engineering for customer-level modeling
+  * Trained and validated regression models
+  * Exported trained models for backend inference
 
-Raghav
-Prediction Models (Random Forest & Lasso Regression)
+* **Paghallavan**
+  *Frontend Development & Presentation*
 
-Feature engineering for customer-level modeling
-
-Trained and validated regression models
-
-Exported trained models for backend inference
-
-Paghallavan
-Frontend Development & Presentation
-
-Built the TypeScript-based frontend
-
-Integrated backend APIs into UI workflows
-
-Designed presentation and demo narrative
-  
-
+  * Built the TypeScript-based frontend
+  * Integrated backend APIs into UI workflows
+  * Designed presentation and demo narrative
 ---
