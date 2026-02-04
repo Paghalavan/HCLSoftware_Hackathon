@@ -37,7 +37,7 @@ client = Groq()
 # =======================
 # LOAD TRAINED MODEL (REQUIRED)
 # =======================
-MODEL_PATH = "model/model.pkl"
+MODEL_PATH = "model.pkl"
 
 try:
     model = joblib.load(MODEL_PATH)
@@ -230,3 +230,4 @@ def predict_customer_value(data: CustomerPredictionRequest):
     parsed["purchase_probability_30d"] = probability
 
     return parsed
+
