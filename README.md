@@ -436,11 +436,11 @@ This project was developed collaboratively with clearly defined responsibilities
 * **M D Sri Raaghav**
   *Prediction Models (Lasso Regression (R2))*
 
-* Engineered time-aware RFM features for ~N customers to predict 30-day future spend
-* Trained & compared 4 models — Baseline, Lasso (RMSE ≈ 3400), Random Forest, XGBoost (RMSE ≈ 5250, R² < 0)
-* Selected Random Forest due to best generalization on noisy retail data (lower RMSE than boosting models)
-* Used RMSE & R² evaluation to justify model choice instead of relying on complexity
-* Exported production-ready .pkl model for backend inference API
+  * Engineered time-aware RFM features for ~N customers to predict 30-day future spend
+  * Trained & compared 4 models — Baseline, Lasso (RMSE ≈ 3400), Random Forest, XGBoost (RMSE ≈ 5250, R² < 0)
+  * Selected Random Forest due to best generalization on noisy retail data (lower RMSE than boosting models)
+  * Used RMSE & R² evaluation to justify model choice instead of relying on complexity
+  * Exported production-ready .pkl model for backend inference API
 
 * **Lakshya Tiwari**
   *Backend Development, Deployment & System Integration*
