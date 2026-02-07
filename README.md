@@ -1,4 +1,4 @@
-# Customer Value Prediction Model
+# Short term - Customer Lifetime Value (CLV) Prediction Model
 
 This repository contains the **backend service** for predicting **customer future spend** and **purchase likelihood** using transaction-derived features.
 The service exposes a REST API built with **FastAPI**, integrates a **trained machine learning model**, and augments predictions with **LLM-based business insights**.
