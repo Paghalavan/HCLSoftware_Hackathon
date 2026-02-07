@@ -5,6 +5,33 @@ The service exposes a REST API built with **FastAPI**, integrates a **trained ma
 
 ---
 
+## 👥 Contributors
+
+This project was developed collaboratively with clearly defined responsibilities:
+
+* **M D Sri Raaghav**
+  *Prediction Models (Lasso Regression (R2))*
+
+  * Engineered time-aware RFM features for ~N customers to predict 30-day future spend
+  * Trained & compared 4 models — Baseline, Lasso (RMSE ≈ 3400), Random Forest, XGBoost (RMSE ≈ 5250, R² < 0)
+  * Selected Random Forest due to best generalization on noisy retail data (lower RMSE than boosting models)
+  * Used RMSE & R² evaluation to justify model choice instead of relying on complexity
+  * Exported production-ready .pkl model for backend inference API
+
+* **Lakshya Tiwari**
+  *Backend Development, Deployment & System Integration*
+
+  * Designed and implemented the FastAPI backend
+  * Integrated ML inference and LLM-based insights
+  * Handled cloud deployment and end-to-end integration
+
+* **Paghallavan**
+  *Presentation*
+
+  * Designed presentation and demo narrative
+
+---
+
 ## Features
 
 * Predicts **future spend over the next 30 days**
@@ -421,31 +448,3 @@ This backend demonstrates:
 
 Absolutely — here’s the **updated README section** with a clean, professional **Contributors** block added.
 You can paste this directly into your backend README.
-
----
-
-## 👥 Contributors
-
-This project was developed collaboratively with clearly defined responsibilities:
-
-* **M D Sri Raaghav**
-  *Prediction Models (Lasso Regression (R2))*
-
-  * Engineered time-aware RFM features for ~N customers to predict 30-day future spend
-  * Trained & compared 4 models — Baseline, Lasso (RMSE ≈ 3400), Random Forest, XGBoost (RMSE ≈ 5250, R² < 0)
-  * Selected Random Forest due to best generalization on noisy retail data (lower RMSE than boosting models)
-  * Used RMSE & R² evaluation to justify model choice instead of relying on complexity
-  * Exported production-ready .pkl model for backend inference API
-
-* **Lakshya Tiwari**
-  *Backend Development, Deployment & System Integration*
-
-  * Designed and implemented the FastAPI backend
-  * Integrated ML inference and LLM-based insights
-  * Handled cloud deployment and end-to-end integration
-
-* **Paghallavan**
-  *Presentation*
-
-  * Designed presentation and demo narrative
----
