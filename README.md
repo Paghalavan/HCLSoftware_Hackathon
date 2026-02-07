@@ -445,6 +445,3 @@ This backend demonstrates:
 * Clear separation of concerns
 * Business-aligned outputs
 * Cloud deployment best practices
-
-Absolutely — here’s the **updated README section** with a clean, professional **Contributors** block added.
-You can paste this directly into your backend README.
