@@ -1,8 +1,3 @@
-Here’s a **clean, professional README** you can drop directly into your backend repo.
-It’s written to sound **industry-grade**, **hackathon-appropriate**, and **judge-friendly**.
-
----
-
 # Customer Value Prediction Backend
 
 This repository contains the **backend service** for predicting **customer future spend** and **purchase likelihood** using transaction-derived features.
