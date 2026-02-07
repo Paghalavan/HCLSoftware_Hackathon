@@ -445,9 +445,7 @@ This project was developed collaboratively with clearly defined responsibilities
   * Handled cloud deployment and end-to-end integration
 
 * **Paghallavan**
-  *Frontend Development & Presentation*
+  *Presentation*
 
-  * Built the TypeScript-based frontend
-  * Integrated backend APIs into UI workflows
   * Designed presentation and demo narrative
 ---
